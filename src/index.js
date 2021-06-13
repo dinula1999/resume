@@ -6,11 +6,11 @@ import Footer from './components/footer';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
-  <section>
+  <div>
     <Header />
     <Body />
     <Footer />
-  </section>,
+  </div>,
   document.getElementById('root')
 );
 

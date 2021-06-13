@@ -3,6 +3,7 @@ import './styles.css';
 import About from '../about';
 import Contact from '../contact';
 import Articles from "../articles";
+import Projects from '../projects';
 
 import {
   BrowserRouter as Router,
@@ -50,8 +51,4 @@ export default function Navbar() {
       </div>
     </Router>
   );
-}
-
-function Projects() {
-  return <h2>COMING SOON</h2>;
 }
