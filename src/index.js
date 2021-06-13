@@ -1,5 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+
+import './styles.css';
+
 import Header from './components/header';
 import Body from './components/body';
 import Footer from './components/footer';

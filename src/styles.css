@@ -1,0 +1,19 @@
+.articles, .projects{
+    padding: 5% 15%;
+}
+
+.articles .container p, .projects .container p{
+    color: gray;
+}
+
+.articles .container .article, .projects .container .project{
+    border-radius: 2.5px;
+    padding: 5px 100px;
+    box-shadow: 0 1px 5px 0px rgb(241, 241, 241);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.articles .container .article:hover, .projects .container .project:hover{
+    box-shadow: 0 1px 10px 0px rgb(241, 241, 241);
+}
