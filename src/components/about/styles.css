@@ -1,0 +1,17 @@
+.nav-item{
+    margin: 5% 25%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+@media screen and (max-width: 1000px) {
+    .nav-item {
+      margin: 5% 20%;
+}
+}
+
+
+@media screen and (max-width: 600px) {
+    .nav-item {
+      margin: 5% 15%;
+}
+}

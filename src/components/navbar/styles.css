@@ -1,0 +1,41 @@
+nav span{
+    background-color: rgb(255, 255, 255);
+    border-radius: 2rem;
+    border: 0.1px solid rgb(240, 240, 240);
+    padding: 1%;
+    margin: 2.5%;
+    box-shadow: 0px 3px 2px -2px gainsboro;
+    transition: 0.2s;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+nav{
+    text-align: center;
+    margin-top: 5%;
+}
+
+nav span:hover{
+    box-shadow: none;
+}
+
+@media screen and (max-width: 800px) and (min-width: 600px) {
+    nav{
+        margin-top: 7.5%;
+    }
+}
+
+@media screen and (max-width: 800px) and (min-width: 600px) {
+
+    nav span {
+      padding: 0.5rem;
+}
+
+}
+
+@media screen and (max-width: 500px) {
+
+    nav span {
+      padding: 0.3rem;
+}
+
+}
