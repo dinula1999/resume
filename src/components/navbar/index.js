@@ -1,9 +1,5 @@
 import React from "react";
 import './styles.css';
-import About from '../about';
-import Contact from '../contact';
-import Articles from "../articles";
-import Projects from '../projects';
 
 import {
   BrowserRouter as Router,
@@ -35,16 +31,63 @@ export default function Navbar() {
 
     <Switch>
           <Route path="/projects">
-            <Projects />
+            <div className="projects">
+
+              <div className="container">
+                  <div className="row project">
+                  <h4>Sudoku solver</h4>
+                  <p>Sudoku solver app made using only Vanilla Javascript.
+                      Check it out <a href="https://dinula1999.github.io/sudoku-solver" target="_blank" rel="noReferrer">here</a>
+                  </p>
+                  </div>
+                  
+              </div>
+
+            </div>
           </Route>
+
           <Route path="/articles">
-            <Articles />
+          
+            <div className="articles">
+
+              <div className="container">
+                  <div className="row article">
+                      <h4>How to implement a graph</h4>
+                      <p>Here I will walk you through the 2 ways graphs are implemented. AdjecentcyList and AdjecentcyMatrix</p>
+                  </div>
+              </div>
+            <br />
+            THIS SECTION IS STILL IN DEVELOPMENT
+            </div>
+
           </Route>
           <Route path="/contact">
-            <Contact />
+            <div className="nav-item about">
+             
+              <p>Here's my email</p>
+              <p>dinulaisiwara10@gmail.com</p>
+              <h3>or</h3>
+              <a href = "mailto:dinulaisiwara10@gmail.com">
+  Send an email directly
+  </a>
+            
+       </div>
           </Route>
           <Route path="/">
-            <About />
+            <div className="nav-item about">
+              
+              <h3>I'm a developer based in Colombo</h3>
+  
+              <p>
+                  <b>I do front end and back end web development.</b>
+                  Been doing front end development for more than a year now. And enjoy Javascript.
+              </p>
+  
+              <p>
+              So if you're interested contact me.
+              </p>
+  
+          </div>
           </Route>
         </Switch>
 

@@ -3,16 +3,12 @@ import ReactDOM from 'react-dom';
 
 import './styles.css';
 
-import Header from './components/header';
 import Body from './components/body';
-import Footer from './components/footer';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <div>
-    <Header />
     <Body />
-    <Footer />
   </div>,
   document.getElementById('root')
 );

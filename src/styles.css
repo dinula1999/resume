@@ -1,3 +1,7 @@
+body{
+    margin: 0;
+}
+
 .articles, .projects{
     padding: 5% 15%;
 }

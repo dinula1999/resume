@@ -18,17 +18,17 @@ nav span:hover{
     box-shadow: none;
 }
 
-@media screen and (max-width: 800px) and (min-width: 600px) {
+@media screen and (max-width: 800px) and (min-width: 400px) {
     nav{
         margin-top: 7.5%;
     }
 }
 
-@media screen and (max-width: 800px) and (min-width: 600px) {
+@media screen and (max-width: 800px) and (min-width: 400px) {
 
     nav span {
       padding: 0.5rem;
-}
+    }
 
 }
 
@@ -36,6 +36,28 @@ nav span:hover{
 
     nav span {
       padding: 0.3rem;
+    }
+
 }
 
+.nav-item{
+    margin: 5% 25%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.nav-item h3{
+    margin-bottom: 5%;
+}
+
+@media screen and (max-width: 1000px) {
+    .nav-item {
+      margin: 5% 20%;
+    }
+}
+
+
+@media screen and (max-width: 750px) {
+    .nav-item {
+      margin: 8% 12.5%;
+    }
 }
